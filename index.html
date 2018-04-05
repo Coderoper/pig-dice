@@ -5,24 +5,34 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Pig Dice</title>
   </head>
   <body>
-    <h2>Pick a Player</h2>
-
-    <div id="player-one-roll">
-      <button type="button" class="btn btn-primary btn-lg">Roll</button><br>
+    <div class="jumbotron">
+      <h1><strong>Round: <span class="roundNum"></span></strong></h1>
     </div>
-    <div id="player-one-hold">
-      <button type="button" class="btn btn-primary btn-lg">Hold</button><br>
-    </div>
-    <p>"Your current roll is: "<span id="currentRoll"></span></p>
-    <p>"Your round total is: "<span id="rollScore"></span></p>
-    <p>"Your game score: "<span id="gameScore"></span></p>
-    <p>"Your round number: "<span id="roundNum"></span></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" id="player1">
+          <button type="button" class="btn btn-primary btn-lg roll">Roll</button><br>
+          <button type="button" class="btn btn-primary btn-lg hold">Hold</button><br>
+          <p>Your current roll is: <span class="currentRoll"></span></p>
+          <p>Your round total is: <span class="rollScore"></span></p>
+          <p>Your game score: <span class="gameScore"></span></p>
+          <!-- <p>"Your round number: "<span class="roundNum"></span></p> -->
+        </div>
 
-    <div id="player-two-hold">
-      <button type="button" class="btn btn-primary btn-lg">Hold</button><br>
+        <div class="col-md-6" id="player2">
+          <button type="button" class="btn btn-primary btn-lg roll">Roll</button><br>
+          <button type="button" class="btn btn-primary btn-lg hold">Hold</button><br>
+          <p>Your current roll is: <span class="currentRoll"></span></p>
+          <p>Your round total is: <span class="rollScore"></span></p>
+          <p>Your game score:  <span class="gameScore"></span></p>
+          <!-- <p>"Your round number: "<span class="roundNum"></span></p> -->
+
+
+        </div>
+      </div>
     </div>
 
 

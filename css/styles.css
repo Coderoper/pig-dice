@@ -1,3 +1,6 @@
-#player-two-hold {
+#player2 .roll {
+  display: none;
+}
+#player2 .hold {
   display: none;
 }
