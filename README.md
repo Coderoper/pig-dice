@@ -1,8 +1,8 @@
-# Roman Numerals
+# Pig Dice
 
 #### _Pig-Dice, 04/04/2018_
 
-### By _**Kristi Hwang**_
+### By _**James McNamara, Austin Roberts, Kristi Hwang**_
 
 ## Description
 _1. Each player rolls the dice_
@@ -30,5 +30,5 @@ _11. The player who reaches 100 total points first, wins_
 * jQuery
 
 ### License
-Copyright (c) 2018 Kristi Hwang.
+Copyright (c) 2018 James McNamara, Austin Roberts, Kristi Hwang.
 This software is licensed under the GLT license.
